@@ -47,18 +47,16 @@
     }
 
     @media screen and (max-width: 768px) {
-      body {
-        padding: 20px;
-        font-size: 16px;
+        body {
+          padding: 20px;
+          font-size: 16px;
+        }
+        h1 {
+          font-size: 1.5rem;
+        }
+        .card, a {
+          width: 80%; /* ←ここを100%から80%にしてあげる */
+          margin: 8px auto; /* ←中央寄せ＋縦の間隔 */
+        }
       }
-
-      h1 {
-        font-size: 1.5rem;
-      }
-
-      .card,
-      a {
-        width: 100%;
-        margin: 8px 0;
-      }
-    }
+      
