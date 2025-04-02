@@ -40,12 +40,6 @@
       height: auto;
     }
 
-    a,
-    .card {
-      width: 100%;
-      box-sizing: border-box;
-    }
-    
     .intro-img {
         width: 300px;
         max-width: 90%;
