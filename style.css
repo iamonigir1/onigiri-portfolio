@@ -59,10 +59,20 @@
         border-radius: 12px;
         background: #fff;
       }
-      .video-card iframe {
-        width: 100%;
-        border-radius: 8px;
+      .video-card {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 16px;
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
       }
+      .video-card p {
+        font-size: 14px;
+        color: #666;
+        margin-top: 8px;
+      }
+      
       
       
       
