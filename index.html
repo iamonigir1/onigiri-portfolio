@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>がんばれおにちゃん 🍙 Link Hub</title>
   <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
   <style>
@@ -39,8 +41,37 @@
       background: #ff69b4;
       transform: scale(1.05);
     }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    a,
+    .card {
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    @media screen and (max-width: 768px) {
+      body {
+        padding: 20px;
+        font-size: 16px;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      .card,
+      a {
+        width: 100%;
+        margin: 8px 0;
+      }
+    }
   </style>
 </head>
+
 <body>
   <img src="header.png" alt="Onigiri Creative Header" style="max-width: 100%; height: auto; margin-bottom: 20px;">
 
@@ -64,4 +95,5 @@
 
   <p style="margin-top: 30px;">活動の記録や作品も順次公開予定です✨</p>
 </body>
+
 </html>
