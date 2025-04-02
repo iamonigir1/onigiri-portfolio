@@ -45,6 +45,20 @@
       width: 100%;
       box-sizing: border-box;
     }
+    
+    .intro-img {
+        width: 300px;
+        max-width: 90%;
+        border-radius: 16px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        margin: 10px;
+        transition: transform 0.3s ease;
+      }
+      
+      .intro-img:hover {
+        transform: scale(1.02);
+      }
+      
 
     @media screen and (max-width: 768px) {
         body {
